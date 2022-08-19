@@ -1,19 +1,11 @@
 import './App.css';
-import {Col, Row} from 'antd'
 import React from 'react';
+import {Home} from "./component/home/Home";
 
-type Prop = {
+type Prop = {}
 
-}
-
-const App:React.FC<Prop> = () => {
-    return (
-        <div className="App">
-            <header className="App-header">
-                <b><code>Hello <b id="word-world">World</b></code></b>
-            </header>
-        </div>
-    );
+const App: React.FC<Prop> = () => {
+    return (<Home/>);
 }
 
 export default App;
