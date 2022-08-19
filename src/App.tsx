@@ -1,8 +1,9 @@
-import './App.css';
 import React from 'react';
 import {Routes, Route} from "react-router-dom";
 import {Home} from "./component/home/Home";
 import {Donate} from "./component/donation/Donate";
+// import 'antd/dist/antd.css';
+import './App.css';
 
 type Prop = {}
 
